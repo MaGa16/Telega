@@ -2,7 +2,7 @@
     include('vendor/autoload.php'); //Подключаем библиотеку
     use Telegram\Bot\Api; 
 
-    $telegram = new Api('855343749:AAHQitKe0Iuci-BPCu9_V5zMfxzeLoppk-8'); //Устанавливаем токен, полученный у BotFather
+    $telegram = new Api('shit'); //Устанавливаем токен, полученный у BotFather
     $result = $telegram -> getWebhookUpdates(); //Передаем в переменную $result полную информацию о сообщении пользователя
     
     $text = $result["message"]["text"]; //Текст сообщения
